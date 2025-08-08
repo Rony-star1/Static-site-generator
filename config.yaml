@@ -1,0 +1,5 @@
+site_title: "My Blog"
+site_url: "https://example.com"
+site_description: "A simple static blog."
+author: "Your Name"
+theme: "default"
