@@ -1,4 +1,4 @@
 {
-  "buildCommand": "pip install -r requirements.txt && python ssg.py",
+  "buildCommand": "python3 ssg.py",
   "outputDirectory": "public"
 }
