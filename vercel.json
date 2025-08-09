@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "ssg.py",
+      "use": "@vercel/python",
+      "config": {
+        "buildCommand": "pip install -r requirements.txt && python ssg.py"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}

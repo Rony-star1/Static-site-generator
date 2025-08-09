@@ -110,7 +110,7 @@ def copy_static_files(static_dir, output_dir):
 def main():
     parser = argparse.ArgumentParser(description='Static Site Generator')
     parser.add_argument('--config', default='config.yaml', help='Path to config file')
-    parser.add_argument('--output', default='output', help='Output directory')
+    parser.add_argument('--output', default='public', help='Output directory')
     parser.add_argument('--theme', default=None, help='Theme name (overrides config)')
     args = parser.parse_args()
 

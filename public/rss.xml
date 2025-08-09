@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <rss version="2.0">
+      <channel>
+        <title>My Blog</title>
+        <link>https://example.com</link>
+        <description>A simple static blog.</description>
+
+        <item>
+            <title>My First Post</title>
+            <link>https://example.com/blog/first-post.html</link>
+            <pubDate>2023-10-27</pubDate>
+            <description>&lt;h2&gt;Welcome to my blog!&lt;/h2&gt;
+&lt;p&gt;This is my first post using this static site generator. I'm excited to share my thoughts with you.&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown support&lt;/li&gt;
+&lt;li&gt;Theming&lt;/li&gt;</description>
+        </item>
+
+      </channel>
+    </rss>
