@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Blog Posts</h2>
+    <input type="text" id="searchInput" onkeyup="searchPosts()" placeholder="Search for posts...">
+    <ul id="postList">
+        {% for post in posts %}
+            <li>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p><em>Published on: {{ post.date }}</em></p>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

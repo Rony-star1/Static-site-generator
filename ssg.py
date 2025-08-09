@@ -124,6 +124,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     env = Environment(loader=FileSystemLoader('templates'))
+    env.globals['current_year'] = datetime.now().year
     md_files = get_markdown_files('content')
     posts = render_html(md_files, env, config, css_path, output_dir)
     copy_theme_assets(theme_name, output_dir)
